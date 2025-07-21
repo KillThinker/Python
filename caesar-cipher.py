@@ -20,6 +20,7 @@ def caesar(encode_or_decode, original_text, shift_amount):
 
 should_continue = True
 while should_continue:
+    print("Welcome to encode/decode message program, Caesar Cipher.")
     user_choice = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     text = ""
     shift = 0
