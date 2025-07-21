@@ -17,7 +17,7 @@ def divide(n1, n2):
 
 
 def calculator_app():
-    print(logo)
+    print("Welcome to the Calculator App.")
     first_number = float(input("What's the first number?: "))
     still_continue = True
     while still_continue:
