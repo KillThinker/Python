@@ -1,4 +1,3 @@
-from art import logo
 operator = {'+': '+', '-': '-', '*': '*', '/': '/'}
 
 def add(n1, n2):
